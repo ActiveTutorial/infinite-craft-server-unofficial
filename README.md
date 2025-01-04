@@ -10,7 +10,7 @@ I was a bit too stupid to realize that Neal wrote it in js, so all of this is in
 
 2. **Configure API Key and Database Credentials**
    - Navigate to the `private` folder.
-   - In `apikey.php`, replace the placeholder with your actual API key.
+   - In `apikey.php`, replace the placeholder with your actual API key for together.ai.
    - In `databasecreds.php`, replace the placeholder values with your actual database credentials.
 
 3. **Optional Configuration**
@@ -57,7 +57,8 @@ I was a bit too stupid to realize that Neal wrote it in js, so all of this is in
 
 ## Troubleshooting
 
-@activetutorial on Discord dm me and if you get an equal sign thats because I forgot to implement all after ``=``
+@activetutorial on Discord dm me and if you get an equal sign thats because I forgot to implement all after ``=``.
+Also if the mojis are off, thats because Neal doesnt use together.ai for those, nobody knows for shure what and what the promopt is.
 
 ## License
 
