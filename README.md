@@ -43,7 +43,7 @@ I was a bit too stupid to realize that Neal wrote it in js, so all of this is in
    ('Water', 'Fire', 'Steam'),
    ('Wind', 'Wind', 'Tornado'),
    ('Earth', 'Water', 'Plant'),
-   ('Cow', 'Fire', 'Steak');
+   ('Cow', 'Fire', 'Burger');
 
    INSERT INTO emojis (item, emoji) VALUES
    ('Earth', '🌍'),
