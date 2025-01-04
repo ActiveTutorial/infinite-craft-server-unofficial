@@ -5,7 +5,7 @@ I was a bit too stupid to realize that Neal wrote it in js, so all of this is in
 
 ## Setup Instructions
 
-1. **Download and Extract Files**
+1. **Download Files**
    - Place the entire contents of this repository into your server's main directory.
 
 2. **Configure API Key and Database Credentials**
