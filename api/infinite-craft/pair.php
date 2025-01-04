@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
 include '../../private/api.php';
 include '../../private/databaseinteract.php';
 include '../../private/prompts.php';
@@ -37,8 +34,11 @@ function newItem($first, $second) { // request and add new item
     } else {
         $result = requestLLM(getPrompt("normal", $first, $second));
     }
+    $alive = aliveCheck($result);
+    $explodedResult = explode('=', $result);
+    $result = trim(array_pop($explodedResult));    
+    return ['value' => $result, 'isNew' => !$alive];
     addRecipe($first, $second, $result);
-    return $result;
 }
 
 function newEmoji($item) { // request and add new item (also does for zombie elements, idk how else to logically implement this)
@@ -57,7 +57,8 @@ function getCraftResponse(...$args) { // haha thats an infinite craft reference.
             }
             if ($apiresult == false) { // if it doesn't exist make it and award fd               
                     $apiresult = newItem($args[1], $args[2]);
-                    $isNew = true;
+                    $isNew = $apiresult['isNew'];
+                    $apiresult = $apiresult['value'];
             } else {
                 $isNew = false;
             }

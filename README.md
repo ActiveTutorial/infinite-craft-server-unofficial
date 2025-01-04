@@ -7,17 +7,21 @@ I was a bit too stupid to realize that Neal wrote it in js, so all of this is in
 ## Setup Instructions
 
 1. **Download Files**
+
    - Place the entire contents of this repository into your server's main directory.
 
 2. **Configure API Key and Database Credentials**
+
    - Navigate to the `private` folder.
    - In `apikey.php`, replace the placeholder with your actual API key for together.ai.
    - In `databasecreds.php`, replace the placeholder values with your actual database credentials.
 
 3. **Optional Configuration**
+
    - If needed, update the allowed hosts in `pair.php`.
 
 4. **Database Setup**
+
    - Before running the backend, execute the following SQL commands to set up the necessary tables in your database:
 
    ```sql
@@ -57,7 +61,7 @@ I was a bit too stupid to realize that Neal wrote it in js, so all of this is in
 
 ## Troubleshooting
 
-@activetutorial on Discord dm me and if you get an equal sign thats because I forgot to implement all after ``=``.
+@activetutorial on Discord dm me or ask in discord server.
 Also if the mojis are off, thats because Neal doesnt use together.ai for those, nobody knows for shure what and what the promopt is.
 
 ## License
