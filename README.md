@@ -20,7 +20,7 @@ I was a bit too stupid to realize that Neal wrote it in js, so all of this is in
    - Before running the backend, execute the following SQL commands to set up the necessary tables in your database:
 
    ```sql
-   CREATE TABLE recipes (
+   CREATE TABLE results (
      id INT AUTO_INCREMENT PRIMARY KEY,
      first VARCHAR(255) NOT NULL,
      second VARCHAR(255) NOT NULL,
@@ -37,7 +37,7 @@ I was a bit too stupid to realize that Neal wrote it in js, so all of this is in
    - Then insert the following data into the `recipes` and `emojis` tables:
 
    ```sql
-   INSERT INTO recipes (first, second, result) VALUES
+   INSERT INTO results (first, second, result) VALUES
    ('Water', 'Water', 'Lake'),
    ('Earth', 'Earth', 'Mountain'),
    ('Water', 'Fire', 'Steam'),
