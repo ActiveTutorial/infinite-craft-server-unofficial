@@ -1,6 +1,7 @@
 # Unofficial Infinite Craft Backend
 
 This is an unofficial backend server for Infinite Craft by Neal from neal.fun: https://neal.fun/infinite-craft/
+
 I was a bit too stupid to realize that Neal wrote it in js, so all of this is in php. Feel free to translate it to js though.
 
 ## Setup Instructions
@@ -49,7 +50,7 @@ I was a bit too stupid to realize that Neal wrote it in js, so all of this is in
    ('Earth', '🌍'),
    ('Fire', '🔥'),
    ('Water', '💧'),
-   ('Wind', '🌬️');
+   ('Wind', '💨');
    ```
 
 5. **Run the Backend**
