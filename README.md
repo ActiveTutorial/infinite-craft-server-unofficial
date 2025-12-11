@@ -1,8 +1,8 @@
 # Unofficial Infinite Craft Backend
 
-This is an unofficial backend server for Infinite Craft by Neal from neal.fun: https://neal.fun/infinite-craft/
+This is an unofficial backend server for Infinite Craft by Neal from neal.fun: <https://neal.fun/infinite-craft>
 
-I was a bit too stupid to realize that Neal wrote it in js, so all of this is in php. Feel free to translate it to js though.
+I was a bit too stupid to realize that Neal wrote it in JavaScript, so all of this is in PHP. Feel free to translate it to JavaScript though.
 
 ## Setup Instructions
 
@@ -57,13 +57,14 @@ I was a bit too stupid to realize that Neal wrote it in js, so all of this is in
    ```
 
 5. **Run the Backend**
+
    - After completing the setup, the backend should be ready to run!
 
 ## Troubleshooting
 
-@activetutorial on Discord dm me or ask in discord server.
-Also if the mojis are off, thats because Neal doesnt use together.ai for those, nobody knows for shure what and what the promopt is.
+@activetutorial on Discord, DM me or ask in Discord server.
+Also if the emojis are off, that's because Neal doesn't use together.ai for those, nobody knows for sure what and what the prompt is.
 
 ## License
 
-Read LICENSE
+See [LICENSE](/LICENSE)
